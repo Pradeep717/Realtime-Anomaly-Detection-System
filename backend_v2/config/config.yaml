@@ -1,0 +1,6 @@
+training:
+  anomaly_model_path: "./saved_model/campus_small_sliding15.h5"
+  input_dim: 51529  # Adjust this value based on your model's input shape
+data:
+  anomaly_threshold: 13.575308192753205
+  test_video_path: "./test_data/0040.avi"
